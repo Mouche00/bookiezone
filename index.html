@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -58,7 +59,7 @@
         <p class="text-vert">Football</p>
       </div>
 
-      <h1 class="text-5xl font-medium">RCA</h1>
+      <h1 class="text-5xl">RCA</h1>
 
       <div class="flex items-center gap-4 text-xl my-8">
         <p class="flex items-center gap-2 h-12 px-4 bg-gray-100 rounded-full">
@@ -75,8 +76,14 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-5 h-16 gap-12">
-        <div class="col-span-3 bg-red-500"></div>
+      <div class="grid grid-cols-5 h-fit gap-12">
+        <div class="col-span-3 grid grid-cols-2 gap-6">
+          <div class="h-[30rem] bg-[url('./images/stadium1.jpeg')] bg-center bg-cover rounded-xl"></div>
+          <div class="h-[30rem] bg-[url('./images/stadium2.jpeg')] bg-center bg-cover rounded-xl"></div>
+          <div class="h-[30rem] bg-[url('./images/stadium3.jpeg')] bg-center bg-cover rounded-xl"></div>
+          <div class="h-[30rem] bg-[url('./images/stadium1.jpeg')] bg-center bg-cover rounded-xl"></div>
+          <div class="h-[30rem] bg-[url('./images/stadium3.jpeg')] bg-center bg-cover rounded-xl"></div>
+        </div>
         <div class="col-span-2 bg-red-500"></div>
       </div>
     </main>
