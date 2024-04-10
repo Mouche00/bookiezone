@@ -42,3 +42,12 @@ for(let i = 10; i < 24; i++) {
     element.appendChild(text)
     hours.appendChild(element)
 }
+
+///////////////////////////////////////
+
+const burger = document.getElementById('burger-button')
+const menu = document.getElementById('burger-menu')
+
+burger.addEventListener('click', () => {
+    menu.classList.toggle('translate-x-[-100%]')
+})
