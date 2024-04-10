@@ -15,7 +15,7 @@ for(let i = 0; i < 7 * 4; i++) {
     } else {
         element.classList.add('text-gray-400', 'font-semibold')
     }
-    element.classList.add('text-xl', 'w-12', 'h-12', 'p-[2rem]', 'rounded-full', 'flex', 'items-center', 'justify-center')
+    element.classList.add('text-lg', 'lg:text-xl', 'w-10', 'lg:w-12', 'h-10', 'lg:h-12', 'p-2', 'lg:p-[2rem]', 'rounded-full', 'flex', 'items-center', 'justify-center')
     const text = document.createTextNode(`${day + i}`)
     element.appendChild(text)
     calendar.appendChild(element)
@@ -37,7 +37,7 @@ for(let i = 10; i < 24; i++) {
     } else {
         element.classList.add('text-black', 'border-gray-300')
     }
-    element.classList.add('w-full', 'h-16', 'rounded-xl', 'border-[2px]', 'text-[1.5rem]', 'flex', 'items-center', 'justify-center')
+    element.classList.add('w-full', 'h-16', 'rounded-xl', 'border-[2px]', 'text-xl', 'lg:text-[1.5rem]', 'flex', 'items-center', 'justify-center')
     const text = document.createTextNode(`${i}:00`)
     element.appendChild(text)
     hours.appendChild(element)
